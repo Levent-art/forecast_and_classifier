@@ -2,7 +2,7 @@
 name = "forecast-and-classifier"
 version = "0.1.0"
 description = ""
-authors = ["Your Name <you@example.com>"]
+authors = ["Levent Arturo Chaves Moreno <levent.arturo@im.unam.mx>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
