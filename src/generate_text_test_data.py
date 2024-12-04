@@ -120,7 +120,5 @@ data = {
 df = pd.DataFrame(data)
 
 # Guardar como CSV
-file_path = "data/test_data.csv"
+file_path = "data/text_test_data.csv"
 df.to_csv(file_path, index=False)
-
-file_path

@@ -29,11 +29,9 @@ true_labels = ["animal", "artificial intelligence", "travel", "artificial intell
 # Crear un DataFrame con los textos y las etiquetas reales
 data = pd.DataFrame({
     "text": texts,
-    "true_label": true_labels
+    "label": true_labels
 })
 
 # Guardar en un archivo CSV
-file_path = "data/sample_data.csv"
+file_path = "data/text_sample_data.csv"
 data.to_csv(file_path, index=False)
-
-file_path
