@@ -54,7 +54,7 @@ Este proyecto utiliza un clasificador de textos para asignar etiquetas a textos 
     ```
 
 ## Estructura del Repositorio
-mercado_libre_project/ │ ├── data/ │ ├── sales_data.csv │ ├── predictions_week_29_30.csv │ └── text_sample_data.csv │ ├── src/ │ ├── forecasting.py │ ├── forecast_utils.py │ └── classifying.py │ ├── images/ │ └── best_model_plot.png │ ├── README.md └── pyproject.toml
+Two_projects/ │ ├── data/ │ ├── sales_data.csv │ ├── predictions_week_29_30.csv │ └── text_sample_data.csv │ ├── src/ │ ├── forecasting.py │ ├── forecast_utils.py │ └── classifying.py │ ├── images/ │ └── best_model_plot.png │ ├── README.md └── pyproject.toml
 
 ## Requisitos
 
