@@ -1,9 +1,13 @@
+import random
 import pandas as pd
 import matplotlib.pyplot as plt
 from sklearn.metrics import mean_absolute_error, mean_squared_error
 from statsmodels.tsa.statespace.sarimax import SARIMAX
 
 from forecast_utils import *
+
+# Set a seed for reproducibility
+random.seed(42)
 
 # Load the data
 file_path = "data/sales_data.csv"  # Cambia esto si tu archivo está en otra ubicación
